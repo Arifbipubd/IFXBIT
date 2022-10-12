@@ -1,0 +1,124 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #12141a !important;
+}
+p {
+  margin: 0 !important;
+}
+.cursor {
+  cursor: pointer;
+}
+
+/***********Color & Background Color***********/
+.bg-cl-black {
+  background-color: #12141a !important;
+}
+.bg-cl-mat-black {
+  background-color: #20232d !important;
+}
+.bg-cl-blue {
+  background-color: #4562fe;
+}
+.cl-blue {
+  color: #4562fe;
+}
+.cl-ash {
+  color: #81818f;
+}
+/***************nav***********/
+nav {
+  height: 50px;
+  border-radius: 10px;
+}
+.navbarRight
+  :where(:nth-child(1), :nth-child(2), :nth-child(3), :nth-child(4)) {
+  cursor: pointer;
+}
+
+/*************Top Body**************/
+.topBody {
+  border-radius: 10px;
+}
+.topBodyHeading {
+  border-bottom: 2px solid #12141a;
+}
+.marketDiv {
+  border: 1px solid #2f3343;
+  border-radius: 10px;
+}
+
+/************Bottom Body**********/
+.search {
+  width: 100%;
+  display: flex;
+  border: 1px solid #2f3343;
+  border-radius: 10px;
+}
+
+.searchTerm {
+  width: 100%;
+  background-color: #181a22;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  padding: 5px;
+  height: 36px;
+  outline: none;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  background: #181a22;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #20232d !important;
+}
+
+.nav-link.active {
+  border-bottom: 4px solid #4562fe !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  background-color: transparent !important;
+  outline: none !important;
+  color: #fff !important;
+}
+.nav-link {
+  color: #81818f !important;
+}
+.nav-link:hover {
+  border-bottom: 4px solid #4562fe !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  color: #fff !important;
+}
+.tableDiv {
+  border: 1px solid #2f3343;
+}
+table {
+  margin-bottom: 0 !important;
+}
+.table>:not(caption)>*>*{
+    border: 0 !important;
+}
+.tableBody{
+    border-bottom: 1px solid #20232d;
+}

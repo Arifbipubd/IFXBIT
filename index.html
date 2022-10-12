@@ -1,0 +1,905 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFXBIT</title>
+    <!---------------Style Css--------->
+    <link rel="stylesheet" href="css/style.css" />
+    <!------------Bootstrap------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!----------Font Awsome----------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="p-2">
+      <nav
+        class="bg-cl-mat-black d-flex justify-content-between align-items-center px-3"
+      >
+        <div class="d-flex gap-4">
+          <div class="d-flex">
+            <div class="me-3 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-bars text-white"></i>
+            </div>
+            <div>
+              <img src="assets/headerLogo.png" alt="" />
+            </div>
+          </div>
+          <div class="d-flex gap-2">
+            <div>
+              <button
+                class="px-3 bg-cl-blue py-1 border-0 rounded-3 text-white"
+              >
+                Basic Tools
+              </button>
+            </div>
+            <div>
+              <button
+                class="px-3 bg-cl-mat-black py-1 border-0 rounded-3 cl-ash"
+              >
+                Spot trading
+              </button>
+            </div>
+            <div>
+              <button
+                type="button"
+                class="px-3 py-1 border-0 position-relative bg-cl-mat-black cl-ash"
+              >
+                Investment
+                <span
+                  class="position-absolute top-10 start-100 translate-middle badge bg-warning text-dark"
+                >
+                  New
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="d-flex gap-3 align-items-center navbarRight">
+            <div class="text-white">
+              <p><i class="fa-solid fa-wallet me-2"></i>Deposite</p>
+            </div>
+            <div class="text-white">
+              <p><i class="fa-solid fa-dollar-sign me-2"></i>Withdraw</p>
+            </div>
+            <div class="text-white">
+              <p>
+                <i class="fa-solid fa-arrow-right-to-bracket me-2"></i
+                >Login/Register
+              </p>
+            </div>
+            <div class="text-white">
+              <p><i class="fa-solid fa-gear me-2"></i>Settings</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="topBody bg-cl-mat-black m-2 py-4">
+        <div class="container">
+          <div
+            class="topBodyHeading d-flex justify-content-between align-items-center text-white py-2"
+          >
+            <div>
+              <p>Markets</p>
+            </div>
+            <div class="cursor">
+              <p>Major changes<i class="fa-solid fa-arrow-right ms-2"></i></p>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="col-lg-3">
+              <div class="marketDiv bg-cl-black py-2">
+                <div class="px-2 py-1 text-white">
+                  <p>With the maximum change in 24 hours</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-cl-mat-black"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-clblack"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-cl-mat-black"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div class="px-2 py-1 text-white text-center cursor">
+                  <p>Show More</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="marketDiv bg-cl-black py-2">
+                <div class="px-2 py-1 text-white">
+                  <p>With the maximum change in 24 hours</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-cl-mat-black"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-clblack"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-cl-mat-black"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div class="px-2 py-1 text-white text-center cursor">
+                  <p>Show More</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="marketDiv bg-cl-black py-2">
+                <div class="px-2 py-1 text-white">
+                  <p>With the maximum change in 24 hours</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-cl-mat-black"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-clblack"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-cl-mat-black"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div class="px-2 py-1 text-white text-center cursor">
+                  <p>Show More</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="marketDiv bg-cl-black py-2">
+                <div class="px-2 py-1 text-white">
+                  <p>With the maximum change in 24 hours</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-cl-mat-black"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-clblack"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between px-2 py-1 bg-cl-mat-black"
+                >
+                  <div class="d-flex">
+                    <div class="me-1">
+                      <img src="assets/solana.png" alt="" />
+                    </div>
+                    <div class="text-white">
+                      <p>Solana</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger">265.6</p>
+                  </div>
+                  <div>
+                    <p class="text-success">+8.32%</p>
+                  </div>
+                </div>
+                <div class="px-2 py-1 text-white text-center cursor">
+                  <p>Show More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottomBody my-5">
+        <div class="container">
+          <div class="d-flex justify-content-between">
+            <div>
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active cl-ash"
+                    id="Favorites-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Favorites"
+                    type="button"
+                    role="tab"
+                    aria-controls="Favorites"
+                    aria-selected="true"
+                  >
+                    Favorites
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="Currency-pairs-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Currency-pairs"
+                    type="button"
+                    role="tab"
+                    aria-controls="Currency-pairs"
+                    aria-selected="false"
+                  >
+                    Currency pairs
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="Cryptocurrencies-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Cryptocurrencies"
+                    type="button"
+                    role="tab"
+                    aria-controls="Cryptocurrencies"
+                    aria-selected="false"
+                  >
+                    Cryptocurrencies
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="Stock-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Stock"
+                    type="button"
+                    role="tab"
+                    aria-controls="Stock"
+                    aria-selected="false"
+                  >
+                    Stock
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="Metals-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Metals"
+                    type="button"
+                    role="tab"
+                    aria-controls="Metals"
+                    aria-selected="false"
+                  >
+                    Metals
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="Raw-material-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Raw-material"
+                    type="button"
+                    role="tab"
+                    aria-controls="Raw-material"
+                    aria-selected="false"
+                  >
+                    Raw material
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="Futures-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Futures"
+                    type="button"
+                    role="tab"
+                    aria-controls="Futures"
+                    aria-selected="false"
+                  >
+                    Futures
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div class="search">
+                <button type="submit" class="searchButton">
+                  <i class="fa fa-search"></i>
+                </button>
+                <input type="text" class="searchTerm" placeholder="Search" />
+              </div>
+            </div>
+          </div>
+          <div class="my-5">
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active text-white"
+                id="Favorites"
+                role="tabpanel"
+                aria-labelledby="Favorites-tab"
+              >
+                <div class="tableDiv">
+                  <table class="table">
+                    <thead class="bg-cl-mat-black">
+                      <tr class="text-white">
+                        <th scope="col">
+                          Name<i class="fa-solid fa-arrows-up-down ms-1"></i>
+                        </th>
+                        <th scope="col">
+                          Price<i class="fa-solid fa-arrows-up-down ms-1"></i>
+                        </th>
+                        <th scope="col">
+                          24 Change
+                          <i class="fa-solid fa-arrows-up-down ms-1"></i>
+                        </th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-regular fa-star text-white"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                      <tr class="tableBody">
+                        <td>
+                          <div class="d-flex">
+                            <div class="me-2">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <div class="me-2">
+                              <img src="assets/solana.png" alt="" />
+                            </div>
+                            <div>
+                              <p class="text-white">
+                                Solana <span class="cl-ash">(SOL)</span>
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="text-danger">9,567.90</p>
+                        </td>
+                        <td>
+                          <p class="text-danger">-18.32%</p>
+                        </td>
+                        <td>
+                          <p class="cl-blue">Trade</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="Currency-pairs"
+                role="tabpanel"
+                aria-labelledby="Currency-pairs-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="Cryptocurrencies"
+                role="tabpanel"
+                aria-labelledby="Cryptocurrencies-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="Stock"
+                role="tabpanel"
+                aria-labelledby="Stock-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="Metals"
+                role="tabpanel"
+                aria-labelledby="Metals-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="Raw-material"
+                role="tabpanel"
+                aria-labelledby="Raw-material-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade text-white"
+                id="Futures"
+                role="tabpanel"
+                aria-labelledby="Futures-tab"
+              >
+                .
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
