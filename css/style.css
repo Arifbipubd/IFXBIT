@@ -166,7 +166,9 @@ table {
   border-bottom: 1px solid #20232d;
 }
 
-/***********Pagination********************/
+.footer{
+  border-radius: 10px;
+}
 
 /*******************Media Query******************/
 
