@@ -41,7 +41,7 @@
               <img src="assets/headerLogo.png" alt="" />
             </div>
           </div>
-          <div class="d-flex gap-2">
+          <div class="gap-2 leftNav">
             <div>
               <button
                 class="px-3 bg-cl-blue py-1 border-0 rounded-3 text-white"
@@ -71,9 +71,31 @@
               </button>
             </div>
           </div>
+          <div class="dropdownLeftNav">
+            <button
+              class="left-dropdown-toggle text-white"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Basic Tools
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a class="dropdown-item" href="#"><p>Basic Tools</p></a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><p>Spot trading</p></a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><p>Investment</p></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div>
-          <div class="d-flex gap-3 align-items-center navbarRight">
+          <div class="gap-3 align-items-center navbarRight">
             <div class="text-white">
               <p><i class="fa-solid fa-wallet me-2"></i>Deposite</p>
             </div>
@@ -89,6 +111,36 @@
             <div class="text-white">
               <p><i class="fa-solid fa-gear me-2"></i>Settings</p>
             </div>
+          </div>
+          <div class="dropdownNav">
+            <button
+              class="dropdown-toggle text-white"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><p><i class="fa-solid fa-wallet me-2"></i>Deposite</p></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><p>
+                    <i class="fa-solid fa-dollar-sign me-2"></i>Withdraw
+                  </p></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><p><i class="fa-solid fa-gear me-2"></i>Settings</p></a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -107,7 +159,7 @@
             </div>
           </div>
           <div class="row my-5">
-            <div class="col-lg-3">
+            <div class="col-md-3 mb-3">
               <div class="marketDiv bg-cl-black py-2">
                 <div class="px-2 py-1 text-white">
                   <p>With the maximum change in 24 hours</p>
@@ -123,7 +175,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -141,7 +193,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -159,7 +211,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -171,7 +223,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-md-3 mb-3">
               <div class="marketDiv bg-cl-black py-2">
                 <div class="px-2 py-1 text-white">
                   <p>With the maximum change in 24 hours</p>
@@ -187,7 +239,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -205,7 +257,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -223,7 +275,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -235,7 +287,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-md-3 mb-3">
               <div class="marketDiv bg-cl-black py-2">
                 <div class="px-2 py-1 text-white">
                   <p>With the maximum change in 24 hours</p>
@@ -251,7 +303,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -269,7 +321,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -287,7 +339,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -299,7 +351,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-md-3 mb-3">
               <div class="marketDiv bg-cl-black py-2">
                 <div class="px-2 py-1 text-white">
                   <p>With the maximum change in 24 hours</p>
@@ -315,7 +367,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -333,7 +385,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -351,7 +403,7 @@
                       <p>Solana</p>
                     </div>
                   </div>
-                  <div>
+                  <div class="marketRange">
                     <p class="text-danger">265.6</p>
                   </div>
                   <div>
@@ -368,7 +420,7 @@
       </div>
       <div class="bottomBody my-5">
         <div class="container">
-          <div class="d-flex justify-content-between">
+          <div class="d-flex justify-content-between bottomBodyHead">
             <div>
               <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -488,7 +540,7 @@
                 role="tabpanel"
                 aria-labelledby="Favorites-tab"
               >
-                <div class="tableDiv">
+                <div class="tableDiv table-responsive">
                   <table class="table">
                     <thead class="bg-cl-mat-black">
                       <tr class="text-white">
@@ -502,7 +554,7 @@
                           24 Change
                           <i class="fa-solid fa-arrows-up-down ms-1"></i>
                         </th>
-                        <th scope="col"></th>
+                        <th class="lastTableTd" scope="col"></th>
                       </tr>
                     </thead>
                     <tbody>
@@ -528,7 +580,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -554,7 +606,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -580,7 +632,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -606,7 +658,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -632,7 +684,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -658,7 +710,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -684,7 +736,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -710,7 +762,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -736,7 +788,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -762,7 +814,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -788,7 +840,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -814,7 +866,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -840,7 +892,7 @@
                         <td>
                           <p class="text-danger">-18.32%</p>
                         </td>
-                        <td>
+                        <td class="lastTableTd">
                           <p class="cl-blue">Trade</p>
                         </td>
                       </tr>
@@ -900,6 +952,46 @@
           </div>
         </div>
       </div>
+      <div class="pagination d-flex justify-content-center my-5 container">
+        <div class="d-flex gap-3 text-white">
+          <div class="cursor px-2 rounded-3">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="cursor bg-cl-blue px-2 rounded-3">1</div>
+          <div class="cursor px-2 rounded-3">2</div>
+          <div class="cursor px-2 rounded-3">3</div>
+          <div class="cursor px-2 rounded-3">4</div>
+          <div class="cursor px-2 rounded-3">5</div>
+          <div class="cursor px-2 rounded-3">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
     </main>
+    <footer class="p-2">
+      <div
+        class="footer d-flex justify-content-between align-items-center bg-cl-mat-black p-2"
+      >
+        <div class="d-flex gap-2">
+          <div class="text-white">
+            <p><i class="fa-solid fa-wifi me-2"></i>Server: InstaForex</p>
+          </div>
+          <div class="text-white footerHide">
+            <p>Connection Status: Connected</p>
+          </div>
+        </div>
+        <div class="d-flex gap-2 align-items-center">
+          <div class="text-white footerHide">
+            <p>Market: London</p>
+          </div>
+          <div class="text-white">
+            <p><i class="fa-regular fa-clock me-2"></i>09/17/2021</p>
+          </div>
+          <div class="text-white footerHide">
+            <p>14:40:25 (UTC+3)</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
