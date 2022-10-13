@@ -155,9 +155,13 @@ nav {
 }
 .tableDiv {
   border: 1px solid #2f3343;
+  border-radius: 10px;
 }
 table {
   margin-bottom: 0 !important;
+}
+table tr{
+  line-height: 2.5;
 }
 .table > :not(caption) > * > * {
   border: 0 !important;
@@ -166,7 +170,7 @@ table {
   border-bottom: 1px solid #20232d;
 }
 
-.footer{
+.footer {
   border-radius: 10px;
 }
 
@@ -174,7 +178,7 @@ table {
 
 /****Nav****/
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .navbarRight {
     display: none;
   }
@@ -185,7 +189,10 @@ table {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+  nav{
+    justify-content: space-around !important;
+  }
   .leftNav {
     display: none;
   }
@@ -202,7 +209,7 @@ table {
     display: none;
   }
 
-  .footerHide{
+  .footerHide {
     display: none;
   }
 }
