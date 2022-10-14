@@ -10,10 +10,15 @@ body {
 }
 p {
   margin: 0 !important;
-  font-size: 12px;
 }
 .cursor {
   cursor: pointer;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-14{
+  font-size: 14px;
 }
 
 /***********Color & Background Color***********/
