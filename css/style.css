@@ -10,6 +10,7 @@ body {
 }
 p {
   margin: 0 !important;
+  font-size: 12px;
 }
 .cursor {
   cursor: pointer;
@@ -35,10 +36,6 @@ p {
 nav {
   height: 50px;
   border-radius: 10px;
-}
-.navbarRight
-  :where(:nth-child(1), :nth-child(2), :nth-child(3), :nth-child(4)) {
-  cursor: pointer;
 }
 .leftNav {
   display: flex;
